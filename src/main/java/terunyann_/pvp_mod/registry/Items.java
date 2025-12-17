@@ -148,7 +148,7 @@ public abstract class Items {
 
     public static final Item BEDROCK_SWORD = register("bedrock_sword", Item::new,
             new Item.Settings()
-                    .sword(PvpModToolMaterial.BEDROCK, 10, -2.4f)
+                    .sword(PvpModToolMaterial.BEDROCK, 8, -2.4f)
                     .rarity(Rarity.EPIC)
     );
 
@@ -180,25 +180,25 @@ public abstract class Items {
 
     public static final Item IRON_PAXEL = register("iron_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.IRON, PAXEL_MINEABLE, 7, -2.4f, 6)
+                    .tool(ToolMaterial.IRON, PAXEL_MINEABLE, 6, -2.4f, 6)
                     .maxDamage(500).rarity(Rarity.COMMON)
     );
 
     public static final Item DIAMOND_PAXEL = register("diamond_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.DIAMOND, PAXEL_MINEABLE, 8, -2.4f, 12)
+                    .tool(ToolMaterial.DIAMOND, PAXEL_MINEABLE, 5, -2.4f, 12)
                     .maxDamage(3122).rarity(Rarity.COMMON)
     );
 
     public static final Item NETHERITE_PAXEL = register("netherite_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.NETHERITE, PAXEL_MINEABLE, 9, -2.4f, 13)
+                    .tool(ToolMaterial.NETHERITE, PAXEL_MINEABLE, 5, -2.4f, 13)
                     .maxDamage(4062).rarity(Rarity.COMMON)
     );
 
     public static final Item BEDROCK_PAXEL = register("bedrock_paxel", Item::new,
             new Item.Settings()
-                    .tool(PvpModToolMaterial.BEDROCK, PAXEL_MINEABLE, 10, -2.4f, 30)
+                    .tool(PvpModToolMaterial.BEDROCK, PAXEL_MINEABLE, 7, -2.4f, 30)
                     .rarity(Rarity.EPIC)
     );
 

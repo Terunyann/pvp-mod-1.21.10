@@ -72,7 +72,8 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.BEDROCK_SWORD,
                         Items.ZAZAZAZAL_SWORD,
                         Items.BEDROCK_AXE,
-                        Items.BEDROCK_BATTLEAXE
+                        Items.BEDROCK_BATTLEAXE,
+                        Items.BEDROCK_SCYTHE
                 )
         ;
 
