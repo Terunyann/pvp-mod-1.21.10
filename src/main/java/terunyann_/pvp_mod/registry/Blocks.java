@@ -12,11 +12,8 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import terunyann_.pvp_mod.PvpMod;
-import terunyann_.pvp_mod.registry.specialblocks.BedrockBlock;
 
 import java.util.function.Function;
-
-import static net.minecraft.block.Blocks.BEDROCK;
 
 public class Blocks {
 
@@ -25,12 +22,6 @@ public class Blocks {
                     .copy(net.minecraft.block.Blocks.SLIME_BLOCK)
                     .mapColor(MapColor.PURPLE)
                     .sounds(BlockSoundGroup.STONE)
-    );
-
-    public static final Block BEDROCK_BLOCK = register("bedrock_block", BedrockBlock::new,
-            AbstractBlock.Settings
-                    .copy(BEDROCK)
-                    .requiresTool()
     );
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings) {

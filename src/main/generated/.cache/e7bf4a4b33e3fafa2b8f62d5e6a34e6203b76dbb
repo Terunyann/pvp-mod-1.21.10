@@ -7,6 +7,7 @@ c9b7d5792dc7684ec569f1fc2e14884da23a9377 data/minecraft/tags/item/enchantable/ar
 13e209cb9463e4240b3ce956e7b95baa990ea249 data/minecraft/tags/item/enchantable/leg_armor.json
 fecc492f3c5c0ba8120fdc028f9ed9f066b5a564 data/minecraft/tags/item/enchantable/mining.json
 ab7d8efaafaaf78a04601cbb1c551f6b7393a450 data/minecraft/tags/item/enchantable/sword.json
+625d96a9e24734beb916e66a2e86e65d87683c46 data/minecraft/tags/item/enchantable/weapon.json
 e1008cea9e1b104fef166d2b99a89c67ba86c29f data/minecraft/tags/item/foot_armor.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/pickaxes.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/shovels.json

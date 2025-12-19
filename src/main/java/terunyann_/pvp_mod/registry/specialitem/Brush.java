@@ -22,9 +22,7 @@ public class Brush extends Item {
 
     @Override
     public ActionResult use(World world, PlayerEntity user, Hand hand) {
-        if (world.isClient()) {
-            return ActionResult.PASS;
-        }
+        if (world.isClient()) return ActionResult.PASS;
 
         if (world instanceof ServerWorld serverWorld) {
 

@@ -58,9 +58,9 @@ public class Bedrock_Battleaxe extends Item {
                     SoundEvents.BLOCK_ANVIL_LAND, SoundCategory.PLAYERS, 1.0f, 0.6f);
         }
 
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, pos.x, pos.y + 2, pos.z, 1, 0, 0, 0, 0);
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, pos.x + 1, pos.y + 1, pos.z + 2, 1, 0, 0, 0, 0);
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, pos.x - 1, pos.y + 1, pos.z + 2, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, pos.x, pos.y - 1.5, pos.z, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, pos.x + 1, pos.y - 1.5, pos.z + 2, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, pos.x - 1, pos.y - 1.5, pos.z + 2, 1, 0, 0, 0, 0);
 
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20, 4, true, true));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 20, 255, true, true));

@@ -11,6 +11,7 @@ import terunyann_.pvp_mod.list.enums.PvpModArmorMaterial;
 import terunyann_.pvp_mod.list.enums.PvpModToolMaterial;
 import terunyann_.pvp_mod.registry.Blocks;
 import terunyann_.pvp_mod.registry.Creative_tab;
+import terunyann_.pvp_mod.registry.Events;
 import terunyann_.pvp_mod.registry.Items;
 
 import static terunyann_.pvp_mod.registry.Creative_tab.CUSTOM_ITEM_GROUP;
@@ -29,6 +30,7 @@ public class PvpMod implements ModInitializer {
         PvpModToolMaterial.load();
         Creative_tab.load();
         Blocks.load();
+        Events.load();
 
 
 // Register items to the custom item group.
@@ -44,6 +46,7 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.HAMBURGER);
             itemGroup.add(Items.SLICED_BREAD);
             itemGroup.add(Items.SOFTSERVE_ICECREAM);
+            itemGroup.add(Items.MILK_BOTTLE);
 
             itemGroup.add(Items.BEDROCK_INGOT);
             itemGroup.add(Items.BEDROCK_UPGRADE_SMITHING_TEMPLATE);
@@ -71,9 +74,12 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.BEDROCK_LEGGINGS);
             itemGroup.add(Items.BEDROCK_BOOTS);
             itemGroup.add(Items.NEW_BEACH_SPORTS);
+            itemGroup.add(Items.OTHERWORLD_CONTACT_POINT);
+            itemGroup.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI);
+            itemGroup.add(Items.SHAMANIC_VOICE);
+            itemGroup.add(Items.INFESTED_BOOTS);
 
             itemGroup.add(Blocks.NAZO_BLOCK);
-            itemGroup.add(Blocks.BEDROCK_BLOCK);
         });
     }
 

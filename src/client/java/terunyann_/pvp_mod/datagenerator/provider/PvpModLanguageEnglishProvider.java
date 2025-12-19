@@ -51,12 +51,12 @@ public class PvpModLanguageEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_CHESTPLATE, "bedrock chestplate");
         translationBuilder.add(Items.BEDROCK_LEGGINGS, "bedrock leggings");
         translationBuilder.add(Items.BEDROCK_BOOTS, "bedrock boots");
-        translationBuilder.add(Items.NEW_BEACH_SPORTS, "");
+        translationBuilder.add(Items.NEW_BEACH_SPORTS, "new beach sports");
+        translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "otherworld contact point");
 
         translationBuilder.add("item.pvp_mod.nazo_block", "Nazo Block");
         translationBuilder.add("item.pvp_mod.bedrock_block", "Bedrock Block");
 
         translationBuilder.add(Blocks.NAZO_BLOCK, "Nazo Block");
-        translationBuilder.add(Blocks.BEDROCK_BLOCK, "Bedrock Block");
     }
 }

@@ -53,12 +53,12 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_LEGGINGS, "岩盤のレギンス");
         translationBuilder.add(Items.BEDROCK_BOOTS, "岩盤のブーツ");
         translationBuilder.add(Items.NEW_BEACH_SPORTS, "新しいビーチスポーツ");
+        translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "異界接点");
 
         translationBuilder.add("item.pvp_mod.nazo_block", "？ブロック");
         translationBuilder.add("item.pvp_mod.bedrock_block", "岩盤ブロック");
 
 
         translationBuilder.add(Blocks.NAZO_BLOCK, "？ブロック");
-        translationBuilder.add(Blocks.BEDROCK_BLOCK, "岩盤ブロック");
     }
 }

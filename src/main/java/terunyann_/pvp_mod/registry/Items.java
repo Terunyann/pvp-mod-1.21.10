@@ -12,10 +12,14 @@ import net.minecraft.util.Rarity;
 import terunyann_.pvp_mod.PvpMod;
 import terunyann_.pvp_mod.list.enums.PvpModToolMaterial;
 import terunyann_.pvp_mod.registry.specialitem.*;
+import terunyann_.pvp_mod.registry.specialitem.sakura_items.Descending_God_Hinokagutsuchi;
+import terunyann_.pvp_mod.registry.specialitem.sakura_items.New_Beach_Sports;
+import terunyann_.pvp_mod.registry.specialitem.sakura_items.Otherworld_Contact_Point;
+import terunyann_.pvp_mod.registry.specialitem.sakura_items.Shamanic_Voice;
 
 import java.util.function.Function;
 
-import static net.minecraft.item.equipment.ArmorMaterials.DIAMOND;
+import static net.minecraft.item.equipment.ArmorMaterials.*;
 import static terunyann_.pvp_mod.list.FoodList.*;
 import static terunyann_.pvp_mod.list.enums.PvpModArmorMaterial.BEDROCK;
 import static terunyann_.pvp_mod.tag.BlockTags.PAXEL_MINEABLE;
@@ -156,6 +160,7 @@ public abstract class Items {
             new Item.Settings()
                     .sword(PvpModToolMaterial.BEDROCK, 7, -2.4f)
                     .maxDamage(1111).rarity(Rarity.EPIC)
+                    .useCooldown(15)
     );
 
 //Paxels
@@ -229,15 +234,35 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
+
+    //sakuraArmors
     public static final Item NEW_BEACH_SPORTS = register("new_beach_sports", New_Beach_Sports::new,
             new Item.Settings()
                     .armor(DIAMOND, EquipmentType.BOOTS)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item SAKURA_BOOTS_2 = register("sakura_boots_2", Item::new,
+    public static final Item OTHERWORLD_CONTACT_POINT = register("otherworld_contact_point", Otherworld_Contact_Point::new,
             new Item.Settings()
-                    .armor(DIAMOND, EquipmentType.BOOTS)
+                    .armor(NETHERITE, EquipmentType.BOOTS)
+                    .rarity(Rarity.EPIC)
+    );
+
+    public static final Item DESCENDING_GOD_HINOKAGUTSUCHI = register("descending_god_hinokagutsuchi", Descending_God_Hinokagutsuchi::new,
+            new Item.Settings()
+                    .armor(IRON, EquipmentType.LEGGINGS)
+                    .rarity(Rarity.EPIC)
+    );
+
+    public static final Item SHAMANIC_VOICE = register("shamanic_voice", Shamanic_Voice::new,
+            new Item.Settings()
+                    .armor(GOLD, EquipmentType.HELMET)
+                    .rarity(Rarity.EPIC)
+    );
+
+    public static final Item INFESTED_BOOTS = register("infested_boots", Infested_Boots::new,
+            new Item.Settings()
+                    .armor(BEDROCK, EquipmentType.BOOTS)
                     .rarity(Rarity.EPIC)
     );
 

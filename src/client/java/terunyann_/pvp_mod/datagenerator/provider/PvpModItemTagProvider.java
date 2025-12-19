@@ -27,17 +27,6 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         valueLookupBuilder(BEDROCK_TOOL_MATERIALS)
                 .add(Items.BEDROCK_INGOT);
 
-        valueLookupBuilder(BEDROCK_TOOL)
-                .add(Items.BEDROCK_AXE,
-                        Items.BEDROCK_BATTLEAXE,
-                        Items.BEDROCK_HOE,
-                        Items.BEDROCK_PICKAXE,
-                        Items.BEDROCK_SCYTHE,
-                        Items.BEDROCK_SHOVEL,
-                        Items.BEDROCK_SWORD,
-                        Items.BEDROCK_PAXEL
-                );
-
         valueLookupBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
                 .add(Items.BEDROCK_HELMET)
         ;
