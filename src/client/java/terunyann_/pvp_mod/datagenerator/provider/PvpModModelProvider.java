@@ -16,6 +16,7 @@ public class PvpModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(Blocks.NAZO_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(Blocks.BORDER_BLOCK);
     }
 
     @Override
@@ -31,6 +32,7 @@ public class PvpModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Items.MILK_BOTTLE, Models.GENERATED);
         itemModelGenerator.register(Items.BEDROCK_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
         itemModelGenerator.register(Items.BEDROCK_INGOT, Models.GENERATED);
+        itemModelGenerator.register(Items.GRAVITY_ADJUSTMENT_DEVICE, Models.GENERATED);
 
         itemModelGenerator.register(Items.BEDROCK_AXE, Models.HANDHELD);
         itemModelGenerator.register(Items.BEDROCK_BATTLEAXE, Models.HANDHELD);
@@ -54,12 +56,13 @@ public class PvpModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Items.BEDROCK_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(Items.BEDROCK_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(Items.BEDROCK_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(Items.INFESTED_BOOTS, Models.GENERATED);
 
         itemModelGenerator.register(Items.NEW_BEACH_SPORTS, Models.GENERATED);
         itemModelGenerator.register(Items.OTHERWORLD_CONTACT_POINT, Models.GENERATED);
         itemModelGenerator.register(Items.DESCENDING_GOD_HINOKAGUTSUCHI, Models.GENERATED);
         itemModelGenerator.register(Items.SHAMANIC_VOICE, Models.GENERATED);
+        itemModelGenerator.register(Items.REIMU_PURIFICATION_ROD);
 
-        itemModelGenerator.register(Items.INFESTED_BOOTS, Models.GENERATED);
     }
 }

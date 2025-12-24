@@ -93,7 +93,7 @@ public class PvpModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.FOOD, Items.MILK_BOTTLE, 1)
                         .input(net.minecraft.item.Items.GLASS_BOTTLE)
                         .input(net.minecraft.item.Items.MILK_BUCKET)
-                        .criterion(hasItem(net.minecraft.item.Items.MILK_BUCKET), conditionsFromItem(net.minecraft.item.Items.MILK_BUCKET))
+                        .criterion(hasItem(net.minecraft.item.Items.GLASS_BOTTLE), conditionsFromItem(net.minecraft.item.Items.GLASS_BOTTLE))
                         .offerTo(exporter);
 
                 createShaped(RecipeCategory.BUILDING_BLOCKS, net.minecraft.item.Items.BEDROCK, 4)

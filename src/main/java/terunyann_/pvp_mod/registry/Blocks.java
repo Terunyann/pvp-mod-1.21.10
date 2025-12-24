@@ -12,6 +12,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import terunyann_.pvp_mod.PvpMod;
+import terunyann_.pvp_mod.registry.Specialblock.Border_Block;
 
 import java.util.function.Function;
 
@@ -21,6 +22,13 @@ public class Blocks {
             AbstractBlock.Settings
                     .copy(net.minecraft.block.Blocks.SLIME_BLOCK)
                     .mapColor(MapColor.PURPLE)
+                    .sounds(BlockSoundGroup.STONE)
+    );
+
+    public static final Block BORDER_BLOCK = register("border_block", Border_Block::new,
+            AbstractBlock.Settings
+                    .copy(net.minecraft.block.Blocks.BEDROCK)
+                    .mapColor(MapColor.GRAY)
                     .sounds(BlockSoundGroup.STONE)
     );
 

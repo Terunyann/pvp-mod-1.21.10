@@ -23,8 +23,8 @@ public class Otherworld_Contact_Point extends Item {
 
         if (player.getEquippedStack(EquipmentSlot.FEET) != stack) return;
 
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 200, 1, false, false, true));
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 1, false, false, true));
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 0, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 20, 1, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 20, 1, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20, 0, false, false, true));
     }
 }

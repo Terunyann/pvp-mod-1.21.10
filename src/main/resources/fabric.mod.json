@@ -3,13 +3,13 @@
   "id": "pvp_mod",
   "version": "${version}",
   "name": "Pvp Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Enjoyed Pvp!!",
   "authors": [
-    "Me!"
+    "Terunyann_"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Terunyann/pvp-mod-1.21.10"
   },
   "license": "MIT",
   "icon": "assets/pvp_mod/icon.png",

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "pvp_mod:item/gravity_adjustment_device"
+  }
+}

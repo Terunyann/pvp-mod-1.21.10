@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pvp_mod:block/border_block"
+    }
+  }
+}

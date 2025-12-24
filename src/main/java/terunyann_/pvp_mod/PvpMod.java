@@ -51,6 +51,8 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.BEDROCK_INGOT);
             itemGroup.add(Items.BEDROCK_UPGRADE_SMITHING_TEMPLATE);
             itemGroup.add(Items.BRUSH);
+            itemGroup.add(Items.MILK_BOTTLE);
+            itemGroup.add(Items.GRAVITY_ADJUSTMENT_DEVICE);
 
             itemGroup.add(Items.BEDROCK_AXE);
             itemGroup.add(Items.BEDROCK_BATTLEAXE);
@@ -73,13 +75,16 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.BEDROCK_CHESTPLATE);
             itemGroup.add(Items.BEDROCK_LEGGINGS);
             itemGroup.add(Items.BEDROCK_BOOTS);
+            itemGroup.add(Items.INFESTED_BOOTS);
+
             itemGroup.add(Items.NEW_BEACH_SPORTS);
             itemGroup.add(Items.OTHERWORLD_CONTACT_POINT);
             itemGroup.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI);
             itemGroup.add(Items.SHAMANIC_VOICE);
-            itemGroup.add(Items.INFESTED_BOOTS);
+            itemGroup.add(Items.REIMU_PURIFICATION_ROD);
 
             itemGroup.add(Blocks.NAZO_BLOCK);
+            itemGroup.add(Blocks.BORDER_BLOCK);
         });
     }
 

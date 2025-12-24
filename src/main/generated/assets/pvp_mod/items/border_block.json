@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "pvp_mod:block/bedrock_block"
+    "model": "pvp_mod:block/border_block"
   }
 }

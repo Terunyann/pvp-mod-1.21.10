@@ -30,6 +30,7 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_UPGRADE_SMITHING_TEMPLATE, "岩盤の強化鍛冶型");
         translationBuilder.add(Items.BEDROCK_INGOT, "岩盤のインゴット");
         translationBuilder.add(Items.BRUSH, "トイレブラシ");
+        translationBuilder.add(Items.GRAVITY_ADJUSTMENT_DEVICE, "重力調整デバイス");
 
         translationBuilder.add(Items.BEDROCK_AXE, "岩盤の斧");
         translationBuilder.add(Items.BEDROCK_BATTLEAXE, "岩盤のバトルアックス");
@@ -52,13 +53,18 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_CHESTPLATE, "岩盤のチェストプレート");
         translationBuilder.add(Items.BEDROCK_LEGGINGS, "岩盤のレギンス");
         translationBuilder.add(Items.BEDROCK_BOOTS, "岩盤のブーツ");
+        translationBuilder.add(Items.INFESTED_BOOTS, "虫さんトコトコで草");
         translationBuilder.add(Items.NEW_BEACH_SPORTS, "新しいビーチスポーツ");
         translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "異界接点");
+        translationBuilder.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI, "降神ヒノカグツチ");
+        translationBuilder.add(Items.SHAMANIC_VOICE, "シャーマニックボイス");
+        translationBuilder.add(Items.REIMU_PURIFICATION_ROD, "霊夢のお祓い棒(レプリカ)");
 
         translationBuilder.add("item.pvp_mod.nazo_block", "？ブロック");
-        translationBuilder.add("item.pvp_mod.bedrock_block", "岩盤ブロック");
+        translationBuilder.add("item.pvp_mod.border_block", "ボーダーブロック");
 
 
         translationBuilder.add(Blocks.NAZO_BLOCK, "？ブロック");
+        translationBuilder.add(Blocks.BORDER_BLOCK, "ボーダーブロック");
     }
 }

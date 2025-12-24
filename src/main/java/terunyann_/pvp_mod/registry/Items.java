@@ -12,10 +12,7 @@ import net.minecraft.util.Rarity;
 import terunyann_.pvp_mod.PvpMod;
 import terunyann_.pvp_mod.list.enums.PvpModToolMaterial;
 import terunyann_.pvp_mod.registry.specialitem.*;
-import terunyann_.pvp_mod.registry.specialitem.sakura_items.Descending_God_Hinokagutsuchi;
-import terunyann_.pvp_mod.registry.specialitem.sakura_items.New_Beach_Sports;
-import terunyann_.pvp_mod.registry.specialitem.sakura_items.Otherworld_Contact_Point;
-import terunyann_.pvp_mod.registry.specialitem.sakura_items.Shamanic_Voice;
+import terunyann_.pvp_mod.registry.specialitem.sakura_items.*;
 
 import java.util.function.Function;
 
@@ -108,6 +105,10 @@ public abstract class Items {
     );
 
     public static final Item MILK_BOTTLE = register("milk_bottle", Item::new,
+            new Item.Settings()
+    );
+
+    public static final Item GRAVITY_ADJUSTMENT_DEVICE = register("gravity_adjustment_device", Gravity_Adjustment_Device::new,
             new Item.Settings()
     );
 
@@ -234,8 +235,13 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
+    public static final Item INFESTED_BOOTS = register("infested_boots", Infested_Boots::new,
+            new Item.Settings()
+                    .armor(BEDROCK, EquipmentType.BOOTS)
+                    .rarity(Rarity.EPIC)
+    );
 
-    //sakuraArmors
+    //sakuraItems
     public static final Item NEW_BEACH_SPORTS = register("new_beach_sports", New_Beach_Sports::new,
             new Item.Settings()
                     .armor(DIAMOND, EquipmentType.BOOTS)
@@ -260,10 +266,11 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item INFESTED_BOOTS = register("infested_boots", Infested_Boots::new,
+    public static final Item REIMU_PURIFICATION_ROD = register("reimu_purification_rod", Reimu_Purification_Rod::new,
             new Item.Settings()
-                    .armor(BEDROCK, EquipmentType.BOOTS)
-                    .rarity(Rarity.EPIC)
+                    .axe(PvpModToolMaterial.BEDROCK, 7, -2.4f)
+                    .maxDamage(1111).rarity(Rarity.EPIC)
+                    .useCooldown(15)
     );
 
 

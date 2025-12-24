@@ -23,6 +23,6 @@ public class Shamanic_Voice extends Item {
 
         if (player.getEquippedStack(EquipmentSlot.HEAD) != stack) return;
 
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 200, 0, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 20, 0, false, false, true));
     }
 }

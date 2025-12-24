@@ -23,8 +23,8 @@ public class New_Beach_Sports extends Item {
 
         if (player.getEquippedStack(EquipmentSlot.FEET) != stack) return;
 
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 0, false, false, true));
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 200, 0, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20, 0, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20, 0, false, false, true));
 
     }
 }

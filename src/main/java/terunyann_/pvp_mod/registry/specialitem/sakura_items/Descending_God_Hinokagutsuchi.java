@@ -23,6 +23,6 @@ public class Descending_God_Hinokagutsuchi extends Item {
 
         if (player.getEquippedStack(EquipmentSlot.LEGS) != stack) return;
 
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 200, 0, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 20, 0, false, false, true));
     }
 }

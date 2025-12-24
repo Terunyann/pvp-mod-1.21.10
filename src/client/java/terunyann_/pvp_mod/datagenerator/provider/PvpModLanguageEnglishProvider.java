@@ -29,6 +29,7 @@ public class PvpModLanguageEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_UPGRADE_SMITHING_TEMPLATE, "bedrock　upgrade　smithing　template");
         translationBuilder.add(Items.BEDROCK_INGOT, "bedrock　ingot");
         translationBuilder.add(Items.BRUSH, "Toilet Brush");
+        translationBuilder.add(Items.GRAVITY_ADJUSTMENT_DEVICE, "gravity adjustment device");
 
         translationBuilder.add(Items.BEDROCK_AXE, "bedrock　axe");
         translationBuilder.add(Items.BEDROCK_BATTLEAXE, "bedrock　battleaxe");
@@ -51,12 +52,18 @@ public class PvpModLanguageEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_CHESTPLATE, "bedrock chestplate");
         translationBuilder.add(Items.BEDROCK_LEGGINGS, "bedrock leggings");
         translationBuilder.add(Items.BEDROCK_BOOTS, "bedrock boots");
+        translationBuilder.add(Items.INFESTED_BOOTS, "infested boots");
+
         translationBuilder.add(Items.NEW_BEACH_SPORTS, "new beach sports");
         translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "otherworld contact point");
+        translationBuilder.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI, "descending god hinokagutsuchi");
+        translationBuilder.add(Items.SHAMANIC_VOICE, "shamanic voice");
+        translationBuilder.add(Items.REIMU_PURIFICATION_ROD, "reimu purification rod");
 
         translationBuilder.add("item.pvp_mod.nazo_block", "Nazo Block");
-        translationBuilder.add("item.pvp_mod.bedrock_block", "Bedrock Block");
+        translationBuilder.add("item.pvp_mod.border_block", "Border Block");
 
         translationBuilder.add(Blocks.NAZO_BLOCK, "Nazo Block");
+        translationBuilder.add(Blocks.BORDER_BLOCK, "Border Block");
     }
 }
