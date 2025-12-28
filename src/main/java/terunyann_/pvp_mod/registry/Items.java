@@ -241,6 +241,12 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
+    public static final Item FLEET_FOOTED = register("fleet_footed", Fleet_Footed::new,
+            new Item.Settings()
+                    .armor(GOLD, EquipmentType.LEGGINGS)
+                    .rarity(Rarity.EPIC)
+    );
+
     //sakuraItems
     public static final Item NEW_BEACH_SPORTS = register("new_beach_sports", New_Beach_Sports::new,
             new Item.Settings()
@@ -268,9 +274,9 @@ public abstract class Items {
 
     public static final Item REIMU_PURIFICATION_ROD = register("reimu_purification_rod", Reimu_Purification_Rod::new,
             new Item.Settings()
-                    .axe(PvpModToolMaterial.BEDROCK, 7, -2.4f)
+                    .axe(PvpModToolMaterial.BEDROCK, 8, -2.4f)
                     .maxDamage(1111).rarity(Rarity.EPIC)
-                    .useCooldown(15)
+                    .useCooldown(6)
     );
 
 
@@ -289,5 +295,4 @@ public abstract class Items {
 
     public static void load() {
     }
-
 }

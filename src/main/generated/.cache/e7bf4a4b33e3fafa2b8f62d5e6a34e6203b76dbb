@@ -1,14 +1,14 @@
 // 1.21.10	-999999999-01-01T00:00:00	Pvp Mod/Tags for minecraft:item
-d2ed8fad5f98e1adac19e8506a0e1d8b371080f2 data/minecraft/tags/item/axes.json
+c2fe774ca6003dcc9acf9d52950d16314de194f6 data/minecraft/tags/item/axes.json
 c9b7d5792dc7684ec569f1fc2e14884da23a9377 data/minecraft/tags/item/enchantable/armor.json
 7a0c3f114ac06f60fe5c93f45f9c483f5cc4febf data/minecraft/tags/item/enchantable/chest_armor.json
-48c83e89349e6ccf58c588b6304e143ee35485c6 data/minecraft/tags/item/enchantable/durability.json
-7a0c3f114ac06f60fe5c93f45f9c483f5cc4febf data/minecraft/tags/item/enchantable/head_armor.json
-13e209cb9463e4240b3ce956e7b95baa990ea249 data/minecraft/tags/item/enchantable/leg_armor.json
+ad4c86800c81f5262b2b31f850b29f29ec6594f1 data/minecraft/tags/item/enchantable/durability.json
+f07c0c1a11a5cc3f3b14fffecf0a1fdca33cb5a5 data/minecraft/tags/item/enchantable/head_armor.json
+3f41e291da06a349bd6d1f0bdc5651489078866a data/minecraft/tags/item/enchantable/leg_armor.json
 fecc492f3c5c0ba8120fdc028f9ed9f066b5a564 data/minecraft/tags/item/enchantable/mining.json
 ab7d8efaafaaf78a04601cbb1c551f6b7393a450 data/minecraft/tags/item/enchantable/sword.json
 625d96a9e24734beb916e66a2e86e65d87683c46 data/minecraft/tags/item/enchantable/weapon.json
-e1008cea9e1b104fef166d2b99a89c67ba86c29f data/minecraft/tags/item/foot_armor.json
+de735b7de0e8cc4f081113202b65bf5f1441b4ef data/minecraft/tags/item/foot_armor.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/pickaxes.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/shovels.json
 369a629e1fb33eae55962211486dee23a5e69378 data/pvp_mod/tags/item/bedrock_tool_materials.json

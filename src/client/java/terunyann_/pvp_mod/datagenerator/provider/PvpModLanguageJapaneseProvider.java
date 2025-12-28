@@ -54,6 +54,8 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_LEGGINGS, "岩盤のレギンス");
         translationBuilder.add(Items.BEDROCK_BOOTS, "岩盤のブーツ");
         translationBuilder.add(Items.INFESTED_BOOTS, "虫さんトコトコで草");
+        translationBuilder.add(Items.FLEET_FOOTED, "俊足");
+
         translationBuilder.add(Items.NEW_BEACH_SPORTS, "新しいビーチスポーツ");
         translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "異界接点");
         translationBuilder.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI, "降神ヒノカグツチ");

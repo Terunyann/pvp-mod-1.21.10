@@ -76,6 +76,7 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.BEDROCK_LEGGINGS);
             itemGroup.add(Items.BEDROCK_BOOTS);
             itemGroup.add(Items.INFESTED_BOOTS);
+            itemGroup.add(Items.FLEET_FOOTED);
 
             itemGroup.add(Items.NEW_BEACH_SPORTS);
             itemGroup.add(Items.OTHERWORLD_CONTACT_POINT);

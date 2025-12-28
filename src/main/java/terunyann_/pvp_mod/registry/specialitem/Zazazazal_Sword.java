@@ -1,5 +1,6 @@
 package terunyann_.pvp_mod.registry.specialitem;
 
+
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
@@ -13,7 +14,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 
 public class Zazazazal_Sword extends Item {
-    public Zazazazal_Sword(Settings settings) {
+    public Zazazazal_Sword(Item.Settings settings) {
         super(settings);
     }
 
@@ -40,5 +41,4 @@ public class Zazazazal_Sword extends Item {
 
         return ActionResult.SUCCESS;
     }
-
 }

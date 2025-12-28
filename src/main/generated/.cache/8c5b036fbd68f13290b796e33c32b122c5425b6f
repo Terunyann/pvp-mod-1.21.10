@@ -22,6 +22,7 @@ f470abae42cad3d09f914c4b21a5567ce0ae9b96 assets/pvp_mod/items/descending_god_hin
 8468e87942f85f42aa6d63da3238c6691aa6fb0d assets/pvp_mod/items/diamond_apple.json
 0f5fb59d294db643d0c172068ef2ed02e8f16c1c assets/pvp_mod/items/diamond_paxel.json
 b44e73db226304d6a26a205ad0d761f7cd5c234e assets/pvp_mod/items/emerald_apple.json
+4829ffa1381410ebb69320cf7070dbbf4afffb60 assets/pvp_mod/items/fleet_footed.json
 c6ecdc5643727bb771b82ea652d6ec635cab308c assets/pvp_mod/items/golden_paxel.json
 1b72733d19d4ef96b3b64259643b8daa667d7d71 assets/pvp_mod/items/gravity_adjustment_device.json
 4245d29d2e3502a3bfe8f58989a23cb1480dcf03 assets/pvp_mod/items/hamburger.json
@@ -63,6 +64,7 @@ c8a244542768d30ff480170914309840d22420ed assets/pvp_mod/models/item/brush.json
 ee48a8fc75990e441c471061cb6bd6bae5ebc054 assets/pvp_mod/models/item/diamond_apple.json
 931d2e13ce8d183f8ed2cbf3c724c72f2cec6365 assets/pvp_mod/models/item/diamond_paxel.json
 7ad2b77ab3cfe839301c32fbd9cbeff17260f11e assets/pvp_mod/models/item/emerald_apple.json
+337bce5a7acc3ba24934d714764953583537dac1 assets/pvp_mod/models/item/fleet_footed.json
 4f31a1d146ceadbf78f5f61dc3a533c0329dc6b6 assets/pvp_mod/models/item/golden_paxel.json
 b4919de0712546b7109344575a3d115633e5b287 assets/pvp_mod/models/item/gravity_adjustment_device.json
 3c4a9908b9ec8fb3539c821db5ff20d9ae5d5df4 assets/pvp_mod/models/item/hamburger.json
@@ -74,6 +76,7 @@ b767ebbbed6c2516757eef93308b3e94532cc1ed assets/pvp_mod/models/item/kiwi.json
 5619c4af074c9f556554c76ccd7135751fd19c69 assets/pvp_mod/models/item/netherite_paxel.json
 7aed2088417f9f79af5d4440f92393fb4e359ba2 assets/pvp_mod/models/item/new_beach_sports.json
 fbe0c3294c70cb27e366090c7249b2ee920c9af3 assets/pvp_mod/models/item/otherworld_contact_point.json
+28506f90cae979ae634c2a7aa686a1084a788bd2 assets/pvp_mod/models/item/reimu_purification_rod.json
 bdc19b3893577772357909a4e4cb033dd9b3d419 assets/pvp_mod/models/item/shamanic_voice.json
 cfe6ebb233febd633eb6237bd9fd7e85330ce95b assets/pvp_mod/models/item/sliced_bread.json
 f4f6725ecaa4ced4f356904811c7195569ce1ca9 assets/pvp_mod/models/item/softserve_icecream.json
