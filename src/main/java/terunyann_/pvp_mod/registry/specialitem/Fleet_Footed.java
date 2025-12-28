@@ -23,6 +23,6 @@ public class Fleet_Footed extends Item {
 
         if (player.getEquippedStack(EquipmentSlot.LEGS) != stack) return;
 
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 1, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 6, false, false, true));
     }
 }
