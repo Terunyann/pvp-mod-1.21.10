@@ -53,6 +53,7 @@ public class PvpModLanguageEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_LEGGINGS, "bedrock leggings");
         translationBuilder.add(Items.BEDROCK_BOOTS, "bedrock boots");
         translationBuilder.add(Items.INFESTED_BOOTS, "infested boots");
+        translationBuilder.add(Items.FLEET_FOOTED, "fleet footed");
 
         translationBuilder.add(Items.NEW_BEACH_SPORTS, "new beach sports");
         translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "otherworld contact point");

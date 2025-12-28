@@ -31,7 +31,7 @@ public class PvpModArmorMaterial {
             ),
             5,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
-            0.0F,
+            4.0F,
             0.0F,
             BEDROCK_INGOT,
             BEDROCK_ARMOR_MATERIAL_KEY

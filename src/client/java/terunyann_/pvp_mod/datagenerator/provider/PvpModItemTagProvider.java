@@ -29,6 +29,7 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
                 .add(Items.BEDROCK_HELMET)
+                .add(Items.SHAMANIC_VOICE)
         ;
 
         valueLookupBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE)
@@ -37,10 +38,14 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)
                 .add(Items.BEDROCK_LEGGINGS)
+                .add(Items.DESCENDING_GOD_HINOKAGUTSUCHI)
+                .add(Items.FLEET_FOOTED)
         ;
 
         valueLookupBuilder(ItemTags.FOOT_ARMOR)
                 .add(Items.BEDROCK_BOOTS)
+                .add(Items.OTHERWORLD_CONTACT_POINT)
+                .add(Items.INFESTED_BOOTS)
         ;
 
         valueLookupBuilder(ItemTags.ARMOR_ENCHANTABLE)
@@ -108,7 +113,8 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         Items.DIAMOND_PAXEL,
                         Items.NETHERITE_PAXEL,
                         Items.BEDROCK_PAXEL,
-                        Items.BEDROCK_BATTLEAXE
+                        Items.BEDROCK_BATTLEAXE,
+                        Items.REIMU_PURIFICATION_ROD
                 );
 
         valueLookupBuilder(ItemTags.DURABILITY_ENCHANTABLE)
@@ -126,7 +132,8 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         Items.NETHERITE_PAXEL,
                         Items.BEDROCK_PAXEL,
                         Items.BEDROCK_BATTLEAXE,
-                        Items.BEDROCK_SCYTHE
+                        Items.BEDROCK_SCYTHE,
+                        Items.REIMU_PURIFICATION_ROD
                 );
     }
 }

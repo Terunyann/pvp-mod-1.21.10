@@ -56,13 +56,15 @@ public class PvpModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Items.BEDROCK_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(Items.BEDROCK_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(Items.BEDROCK_BOOTS, Models.GENERATED);
+
         itemModelGenerator.register(Items.INFESTED_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(Items.FLEET_FOOTED, Models.GENERATED);
 
         itemModelGenerator.register(Items.NEW_BEACH_SPORTS, Models.GENERATED);
         itemModelGenerator.register(Items.OTHERWORLD_CONTACT_POINT, Models.GENERATED);
         itemModelGenerator.register(Items.DESCENDING_GOD_HINOKAGUTSUCHI, Models.GENERATED);
         itemModelGenerator.register(Items.SHAMANIC_VOICE, Models.GENERATED);
-        itemModelGenerator.register(Items.REIMU_PURIFICATION_ROD);
+        itemModelGenerator.register(Items.REIMU_PURIFICATION_ROD, Models.HANDHELD);
 
     }
 }
