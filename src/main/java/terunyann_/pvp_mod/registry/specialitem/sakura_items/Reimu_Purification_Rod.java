@@ -36,6 +36,7 @@ public class Reimu_Purification_Rod extends Item {
         );
 
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, 6, true, true));
+        user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 3 * 20, 0, true, true));
 
         return ActionResult.SUCCESS;
     }
