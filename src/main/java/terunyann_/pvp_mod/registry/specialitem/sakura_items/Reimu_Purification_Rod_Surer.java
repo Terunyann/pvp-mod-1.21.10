@@ -13,8 +13,8 @@ import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 
 
-public class Reimu_Purification_Rod extends Item {
-    public Reimu_Purification_Rod(Settings settings) {
+public class Reimu_Purification_Rod_Surer extends Item {
+    public Reimu_Purification_Rod_Surer(Settings settings) {
         super(settings);
     }
 
@@ -35,7 +35,7 @@ public class Reimu_Purification_Rod extends Item {
                 1.0f, 1.0f
         );
 
-        user.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, 6, true, true));
+        user.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, 255, true, true));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 3 * 20, 0, true, true));
 
         return ActionResult.SUCCESS;

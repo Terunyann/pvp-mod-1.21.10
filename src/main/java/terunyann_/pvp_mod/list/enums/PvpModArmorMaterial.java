@@ -24,14 +24,14 @@ public class PvpModArmorMaterial {
     public static final ArmorMaterial BEDROCK = new ArmorMaterial(
             2100000000,
             Map.of(
-                    EquipmentType.HELMET, 6,
+                    EquipmentType.HELMET, 3,
                     EquipmentType.CHESTPLATE, 10,
-                    EquipmentType.LEGGINGS, 8,
-                    EquipmentType.BOOTS, 6
+                    EquipmentType.LEGGINGS, 7,
+                    EquipmentType.BOOTS, 4
             ),
             5,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
-            4.0F,
+            0.0F,
             0.0F,
             BEDROCK_INGOT,
             BEDROCK_ARMOR_MATERIAL_KEY

@@ -59,7 +59,7 @@ public class PvpModLanguageEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "otherworld contact point");
         translationBuilder.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI, "descending god hinokagutsuchi");
         translationBuilder.add(Items.SHAMANIC_VOICE, "shamanic voice");
-        translationBuilder.add(Items.REIMU_PURIFICATION_ROD, "reimu purification rod");
+        translationBuilder.add(Items.REIMU_PURIFICATION_ROD_SUPER, "reimu purification rod");
 
         translationBuilder.add("item.pvp_mod.nazo_block", "Nazo Block");
         translationBuilder.add("item.pvp_mod.border_block", "Border Block");

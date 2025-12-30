@@ -272,7 +272,7 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item REIMU_PURIFICATION_ROD = register("reimu_purification_rod", Reimu_Purification_Rod::new,
+    public static final Item REIMU_PURIFICATION_ROD_SUPER = register("reimu_purification_rod_super", Reimu_Purification_Rod_Surer::new,
             new Item.Settings()
                     .axe(PvpModToolMaterial.BEDROCK, 8, -2.4f)
                     .maxDamage(1111).rarity(Rarity.EPIC)

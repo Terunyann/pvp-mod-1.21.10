@@ -114,7 +114,7 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         Items.NETHERITE_PAXEL,
                         Items.BEDROCK_PAXEL,
                         Items.BEDROCK_BATTLEAXE,
-                        Items.REIMU_PURIFICATION_ROD
+                        Items.REIMU_PURIFICATION_ROD_SUPER
                 );
 
         valueLookupBuilder(ItemTags.DURABILITY_ENCHANTABLE)
@@ -133,7 +133,7 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         Items.BEDROCK_PAXEL,
                         Items.BEDROCK_BATTLEAXE,
                         Items.BEDROCK_SCYTHE,
-                        Items.REIMU_PURIFICATION_ROD
+                        Items.REIMU_PURIFICATION_ROD_SUPER
                 );
     }
 }

@@ -64,7 +64,7 @@ public class PvpModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Items.OTHERWORLD_CONTACT_POINT, Models.GENERATED);
         itemModelGenerator.register(Items.DESCENDING_GOD_HINOKAGUTSUCHI, Models.GENERATED);
         itemModelGenerator.register(Items.SHAMANIC_VOICE, Models.GENERATED);
-        itemModelGenerator.register(Items.REIMU_PURIFICATION_ROD, Models.HANDHELD);
+        itemModelGenerator.register(Items.REIMU_PURIFICATION_ROD_SUPER, Models.HANDHELD);
 
     }
 }

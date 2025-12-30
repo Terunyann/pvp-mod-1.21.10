@@ -60,7 +60,7 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.OTHERWORLD_CONTACT_POINT, "異界接点");
         translationBuilder.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI, "降神ヒノカグツチ");
         translationBuilder.add(Items.SHAMANIC_VOICE, "シャーマニックボイス");
-        translationBuilder.add(Items.REIMU_PURIFICATION_ROD, "霊夢のお祓い棒(レプリカ)");
+        translationBuilder.add(Items.REIMU_PURIFICATION_ROD_SUPER, "霊夢のお祓い棒(レプリカ)");
 
         translationBuilder.add("item.pvp_mod.nazo_block", "？ブロック");
         translationBuilder.add("item.pvp_mod.border_block", "ボーダーブロック");

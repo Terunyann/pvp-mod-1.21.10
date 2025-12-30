@@ -1,8 +1,8 @@
 // 1.21.10	-999999999-01-01T00:00:00	Pvp Mod/Tags for minecraft:item
-c2fe774ca6003dcc9acf9d52950d16314de194f6 data/minecraft/tags/item/axes.json
+feed5b44436fbf69b2ad6b200939347644360867 data/minecraft/tags/item/axes.json
 c9b7d5792dc7684ec569f1fc2e14884da23a9377 data/minecraft/tags/item/enchantable/armor.json
 7a0c3f114ac06f60fe5c93f45f9c483f5cc4febf data/minecraft/tags/item/enchantable/chest_armor.json
-ad4c86800c81f5262b2b31f850b29f29ec6594f1 data/minecraft/tags/item/enchantable/durability.json
+bb0b889679c2da4aaf0a71e6f21b53716ebc3eb0 data/minecraft/tags/item/enchantable/durability.json
 f07c0c1a11a5cc3f3b14fffecf0a1fdca33cb5a5 data/minecraft/tags/item/enchantable/head_armor.json
 3f41e291da06a349bd6d1f0bdc5651489078866a data/minecraft/tags/item/enchantable/leg_armor.json
 fecc492f3c5c0ba8120fdc028f9ed9f066b5a564 data/minecraft/tags/item/enchantable/mining.json
