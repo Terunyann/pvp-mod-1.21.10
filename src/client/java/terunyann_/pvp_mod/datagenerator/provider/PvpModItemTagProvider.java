@@ -14,18 +14,23 @@ import terunyann_.pvp_mod.registry.Items;
 import java.util.concurrent.CompletableFuture;
 
 public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
+    public static final TagKey<Item> BEDROCK_TOOL_MATERIALS = TagKey.of(RegistryKeys.ITEM, Identifier.of(PvpMod.MOD_ID, "bedrock_tool_materials"));
+    public static final TagKey<Item> BAKED_FOOD = TagKey.of(RegistryKeys.ITEM, Identifier.of(PvpMod.MOD_ID, "baked_food"));
     public PvpModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
-
-    public static final TagKey<Item> BEDROCK_TOOL_MATERIALS = TagKey.of(RegistryKeys.ITEM, Identifier.of(PvpMod.MOD_ID, "bedrock_tool_materials"));
-    public static final TagKey<Item> BEDROCK_TOOL = TagKey.of(RegistryKeys.ITEM, Identifier.of(PvpMod.MOD_ID, "bedrock_tool"));
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         valueLookupBuilder(BEDROCK_TOOL_MATERIALS)
                 .add(Items.BEDROCK_INGOT);
+
+        valueLookupBuilder(BAKED_FOOD)
+                .add(net.minecraft.item.Items.BAKED_POTATO)
+                .add(Items.BAKED_CARROT)
+                .add(Items.BAKED_BEETROOT)
+        ;
 
         valueLookupBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
                 .add(Items.BEDROCK_HELMET)

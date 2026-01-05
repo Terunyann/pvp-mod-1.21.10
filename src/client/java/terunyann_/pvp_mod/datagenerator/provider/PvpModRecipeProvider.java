@@ -78,6 +78,24 @@ public class PvpModRecipeProvider extends FabricRecipeProvider {
                         "food"
                 );
 
+                offerSmelting(
+                        List.of(Items.BAKED_CARROT),
+                        RecipeCategory.FOOD,
+                        net.minecraft.item.Items.CARROT,
+                        0.1f,
+                        300,
+                        "food"
+                );
+
+                offerSmelting(
+                        List.of(Items.BAKED_BEETROOT),
+                        RecipeCategory.FOOD,
+                        net.minecraft.item.Items.BEETROOT,
+                        0.1f,
+                        300,
+                        "food"
+                );
+
                 createShaped(RecipeCategory.FOOD, Items.SOFTSERVE_ICECREAM, 1)
                         .pattern("msm")
                         .pattern(" b ")

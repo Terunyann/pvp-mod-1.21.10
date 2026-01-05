@@ -82,7 +82,6 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.OTHERWORLD_CONTACT_POINT);
             itemGroup.add(Items.DESCENDING_GOD_HINOKAGUTSUCHI);
             itemGroup.add(Items.SHAMANIC_VOICE);
-            itemGroup.add(Items.REIMU_PURIFICATION_ROD_SUPER);
 
             itemGroup.add(Blocks.NAZO_BLOCK);
             itemGroup.add(Blocks.BORDER_BLOCK);

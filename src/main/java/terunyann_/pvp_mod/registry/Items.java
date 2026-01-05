@@ -16,6 +16,7 @@ import terunyann_.pvp_mod.registry.specialitem.sakura_items.*;
 
 import java.util.function.Function;
 
+import static net.minecraft.component.type.FoodComponents.BAKED_POTATO;
 import static net.minecraft.item.equipment.ArmorMaterials.*;
 import static terunyann_.pvp_mod.list.FoodList.*;
 import static terunyann_.pvp_mod.list.enums.PvpModArmorMaterial.BEDROCK;
@@ -87,6 +88,15 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
+    public static final Item BAKED_CARROT = register("baked_carrot", Item::new,
+            new Item.Settings()
+                    .food(BAKED_POTATO)
+    );
+
+    public static final Item BAKED_BEETROOT = register("baked_beetroot", Item::new,
+            new Item.Settings()
+                    .food(BAKED_POTATO)
+    );
 
 //Items
 

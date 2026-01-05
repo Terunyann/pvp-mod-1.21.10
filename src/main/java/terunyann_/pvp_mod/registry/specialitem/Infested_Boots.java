@@ -23,6 +23,6 @@ public class Infested_Boots extends Item {
 
         if (player.getEquippedStack(EquipmentSlot.FEET) != stack) return;
 
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.INFESTED, 200, 0, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.INFESTED, 20, 0, false, false, true));
     }
 }

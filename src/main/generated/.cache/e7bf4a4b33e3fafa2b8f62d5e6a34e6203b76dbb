@@ -11,4 +11,5 @@ ab7d8efaafaaf78a04601cbb1c551f6b7393a450 data/minecraft/tags/item/enchantable/sw
 de735b7de0e8cc4f081113202b65bf5f1441b4ef data/minecraft/tags/item/foot_armor.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/pickaxes.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/shovels.json
+ed1277fcea93dd87746ebb386f65765f4eec4a41 data/pvp_mod/tags/item/baked_food.json
 369a629e1fb33eae55962211486dee23a5e69378 data/pvp_mod/tags/item/bedrock_tool_materials.json
