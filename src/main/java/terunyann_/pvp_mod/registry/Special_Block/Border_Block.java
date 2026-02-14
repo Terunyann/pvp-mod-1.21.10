@@ -1,4 +1,4 @@
-package terunyann_.pvp_mod.registry.Specialblock;
+package terunyann_.pvp_mod.registry.Special_Block;
 
 import net.minecraft.block.*;
 import net.minecraft.entity.LivingEntity;

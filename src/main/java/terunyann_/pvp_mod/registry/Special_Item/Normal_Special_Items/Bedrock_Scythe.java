@@ -1,14 +1,18 @@
-package terunyann_.pvp_mod.registry.specialitem;
+package terunyann_.pvp_mod.registry.Special_Item.Normal_Special_Items;
 
+import net.minecraft.component.type.TooltipDisplayComponent;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.Box;
@@ -16,6 +20,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Bedrock_Scythe extends Item {
     public Bedrock_Scythe(Settings settings) {
@@ -37,12 +42,12 @@ public class Bedrock_Scythe extends Item {
         );
 
         for (LivingEntity living : targets) {
-            living.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 5));
-            living.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 100, 3));
+            living.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 2));
+            living.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 100, 2));
             living.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 100, 0));
-            living.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 1));
+            living.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 60, 1));
 
-            living.damage(serverWorld, serverWorld.getDamageSources().playerAttack(user), 25.0f);
+            living.damage(serverWorld, serverWorld.getDamageSources().playerAttack(user), 14.0f);
 
             serverWorld.spawnParticles(
                     ParticleTypes.CRIT,
@@ -72,5 +77,12 @@ public class Bedrock_Scythe extends Item {
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 20, 255));
 
         return ActionResult.SUCCESS;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+        textConsumer.accept(Text.translatable("tooltip.pvp_mod.bedrock_scythe"));
+
+        super.appendTooltip(stack, context, displayComponent, textConsumer, type);
     }
 }

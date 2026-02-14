@@ -12,7 +12,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import terunyann_.pvp_mod.PvpMod;
-import terunyann_.pvp_mod.registry.Specialblock.Border_Block;
+import terunyann_.pvp_mod.registry.Special_Block.Border_Block;
 
 import java.util.function.Function;
 

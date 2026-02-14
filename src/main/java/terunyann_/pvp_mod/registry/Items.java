@@ -11,8 +11,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import terunyann_.pvp_mod.PvpMod;
 import terunyann_.pvp_mod.list.enums.PvpModToolMaterial;
-import terunyann_.pvp_mod.registry.specialitem.*;
-import terunyann_.pvp_mod.registry.specialitem.sakura_items.*;
+import terunyann_.pvp_mod.registry.Special_Item.Food_Item.*;
+import terunyann_.pvp_mod.registry.Special_Item.Normal_Special_Items.*;
+import terunyann_.pvp_mod.registry.Special_Item.Sakura_Items.*;
 
 import java.util.function.Function;
 
@@ -27,62 +28,61 @@ public abstract class Items {
 
 //Foods
 
-
-    public static final Item AMETHYST_APPLE = register("amethyst_apple", Glint_Items::new,
+    public static final Item AMETHYST_APPLE = register("amethyst_apple", Amethyst_Apple::new,
             new Item.Settings()
                     .food(AMETHYST_APPLE_COMPONENT, AMETHYST_APPLE_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item DIAMOND_APPLE = register("diamond_apple", Item::new,
+    public static final Item DIAMOND_APPLE = register("diamond_apple", Diamond_Apple::new,
             new Item.Settings()
                     .food(DIAMOND_APPLE_COMPONENT, DIAMOND_APPLE_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item ENCHANTED_DIAMOND_APPLE = register("enchanted_diamond_apple", Glint_Items::new,
+    public static final Item ENCHANTED_DIAMOND_APPLE = register("enchanted_diamond_apple", Enchanted_Diamond_Apple::new,
             new Item.Settings()
                     .food(ENCHANTED_DIAMOND_APPLE_COMPONENT, ENCHANTED_DIAMOND_APPLE_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item EMERALD_APPLE = register("emerald_apple", Glint_Items::new,
+    public static final Item EMERALD_APPLE = register("emerald_apple", Emerald_Apple::new,
             new Item.Settings()
                     .food(EMERALD_APPLE_COMPONENT, EMERALD_APPLE_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item NETHERITE_APPLE = register("netherite_apple", Item::new,
+    public static final Item NETHERITE_APPLE = register("netherite_apple", Netherite_Apple::new,
             new Item.Settings()
                     .food(NETHERITE_APPLE_COMPONENT, NETHERITE_APPLE_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item ENCHANTED_NETHERITE_APPLE = register("enchanted_netherite_apple", Glint_Items::new,
+    public static final Item ENCHANTED_NETHERITE_APPLE = register("enchanted_netherite_apple", Enchanted_Netherite_Apple::new,
             new Item.Settings()
                     .food(ENCHANTED_NETHERITE_APPLE_COMPONENT, ENCHANTED_NETHERITE_APPLE_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item HAMBURGER = register("hamburger", Item::new,
+    public static final Item HAMBURGER = register("hamburger", Hamburger::new,
             new Item.Settings()
                     .food(HAMBURGER_COMPONENT, HAMBURGER_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item KIWI = register("kiwi", Glint_Items::new,
+    public static final Item KIWI = register("kiwi", Kiwi::new,
             new Item.Settings()
                     .food(KIWI_COMPONENT, KIWI_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item SLICED_BREAD = register("sliced_bread", Item::new,
+    public static final Item SLICED_BREAD = register("sliced_bread", Sliced_Bread::new,
             new Item.Settings()
                     .food(SLICED_BREAD_COMPONENT, SLICED_BREAD_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item SOFTSERVE_ICECREAM = register("softserve_icecream", Item::new,
+    public static final Item SOFTSERVE_ICECREAM = register("softserve_icecream", Softserve_Icecream::new,
             new Item.Settings()
                     .food(SOFTSERVE_ICECREAM_COMPONENT, SOFTSERVE_ICECREAM_CONSUMABLE_COMPONENT)
                     .rarity(Rarity.EPIC)
@@ -120,6 +120,10 @@ public abstract class Items {
 
     public static final Item GRAVITY_ADJUSTMENT_DEVICE = register("gravity_adjustment_device", Gravity_Adjustment_Device::new,
             new Item.Settings()
+                    .useCooldown(5)
+    );
+    public static final Item MILK_TRADER = register("milk_trader", Milk_Trader::new,
+            new Item.Settings()
     );
 
 
@@ -151,8 +155,8 @@ public abstract class Items {
 
     public static final Item BEDROCK_SCYTHE = register("bedrock_scythe", Bedrock_Scythe::new,
             new Item.Settings()
-                    .sword(PvpModToolMaterial.BEDROCK, 14, -2.4f)
-                    .useCooldown(14).rarity(Rarity.EPIC)
+                    .sword(PvpModToolMaterial.BEDROCK, 8, -2.8f)
+                    .useCooldown(15).rarity(Rarity.EPIC)
     );
 
     public static final Item BEDROCK_SHOVEL = register("bedrock_shovel", Item::new,
@@ -178,43 +182,43 @@ public abstract class Items {
 
     public static final Item WOODEN_PAXEL = register("wooden_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.WOOD, PAXEL_MINEABLE, 5, -2.4f, 2)
+                    .tool(ToolMaterial.WOOD, PAXEL_MINEABLE, 5, -2.4f, 10)
                     .maxDamage(118).rarity(Rarity.COMMON)
     );
 
     public static final Item STONE_PAXEL = register("stone_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.STONE, PAXEL_MINEABLE, 5, -2.4f, 4)
+                    .tool(ToolMaterial.STONE, PAXEL_MINEABLE, 5, -2.4f, 10)
                     .maxDamage(262).rarity(Rarity.COMMON)
     );
 
     public static final Item GOLDEN_PAXEL = register("golden_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.GOLD, PAXEL_MINEABLE, 5, -2.4f, 14)
+                    .tool(ToolMaterial.GOLD, PAXEL_MINEABLE, 5, -2.4f, 12)
                     .maxDamage(64).rarity(Rarity.COMMON)
     );
 
     public static final Item IRON_PAXEL = register("iron_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.IRON, PAXEL_MINEABLE, 6, -2.4f, 6)
+                    .tool(ToolMaterial.IRON, PAXEL_MINEABLE, 6, -2.4f, 5)
                     .maxDamage(500).rarity(Rarity.COMMON)
     );
 
     public static final Item DIAMOND_PAXEL = register("diamond_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.DIAMOND, PAXEL_MINEABLE, 5, -2.4f, 12)
+                    .tool(ToolMaterial.DIAMOND, PAXEL_MINEABLE, 5, -2.4f, 5)
                     .maxDamage(3122).rarity(Rarity.COMMON)
     );
 
     public static final Item NETHERITE_PAXEL = register("netherite_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.NETHERITE, PAXEL_MINEABLE, 5, -2.4f, 13)
+                    .tool(ToolMaterial.NETHERITE, PAXEL_MINEABLE, 5, -2.4f, 5)
                     .maxDamage(4062).rarity(Rarity.COMMON)
     );
 
     public static final Item BEDROCK_PAXEL = register("bedrock_paxel", Item::new,
             new Item.Settings()
-                    .tool(PvpModToolMaterial.BEDROCK, PAXEL_MINEABLE, 7, -2.4f, 30)
+                    .tool(PvpModToolMaterial.BEDROCK, PAXEL_MINEABLE, 7, -2.4f, 5)
                     .rarity(Rarity.EPIC)
     );
 
@@ -257,7 +261,14 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
-    //sakuraItems
+//sakuraItems
+
+    public static final Item DESCENDING_GOD_HINOKAGUTSUCHI = register("descending_god_hinokagutsuchi", Descending_God_Hinokagutsuchi::new,
+            new Item.Settings()
+                    .armor(IRON, EquipmentType.LEGGINGS)
+                    .rarity(Rarity.EPIC)
+    );
+
     public static final Item NEW_BEACH_SPORTS = register("new_beach_sports", New_Beach_Sports::new,
             new Item.Settings()
                     .armor(DIAMOND, EquipmentType.BOOTS)
@@ -270,23 +281,17 @@ public abstract class Items {
                     .rarity(Rarity.EPIC)
     );
 
-    public static final Item DESCENDING_GOD_HINOKAGUTSUCHI = register("descending_god_hinokagutsuchi", Descending_God_Hinokagutsuchi::new,
+    public static final Item REIMU_PURIFICATION_ROD_SUPER = register("reimu_purification_rod_super", Reimu_Purification_Rod_Surer::new,
             new Item.Settings()
-                    .armor(IRON, EquipmentType.LEGGINGS)
-                    .rarity(Rarity.EPIC)
+                    .axe(PvpModToolMaterial.BEDROCK, 8, -2.4f)
+                    .maxDamage(1111).rarity(Rarity.EPIC)
+                    .useCooldown(6)
     );
 
     public static final Item SHAMANIC_VOICE = register("shamanic_voice", Shamanic_Voice::new,
             new Item.Settings()
                     .armor(GOLD, EquipmentType.HELMET)
                     .rarity(Rarity.EPIC)
-    );
-
-    public static final Item REIMU_PURIFICATION_ROD_SUPER = register("reimu_purification_rod_super", Reimu_Purification_Rod_Surer::new,
-            new Item.Settings()
-                    .axe(PvpModToolMaterial.BEDROCK, 8, -2.4f)
-                    .maxDamage(1111).rarity(Rarity.EPIC)
-                    .useCooldown(6)
     );
 
 

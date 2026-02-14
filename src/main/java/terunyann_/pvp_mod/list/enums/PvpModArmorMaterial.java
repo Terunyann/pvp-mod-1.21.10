@@ -16,8 +16,6 @@ import java.util.Map;
 
 public class PvpModArmorMaterial {
 
-    public static final int BASE_DURABILITY = 15;
-
     public static final RegistryKey<EquipmentAsset> BEDROCK_ARMOR_MATERIAL_KEY = RegistryKey.of(EquipmentAssetKeys.REGISTRY_KEY, Identifier.of(PvpMod.MOD_ID, "bedrock"));
     public static final TagKey<Item> BEDROCK_INGOT = TagKey.of(Registries.ITEM.getKey(), Identifier.of(PvpMod.MOD_ID, "bedrock_ingot"));
 
@@ -31,7 +29,7 @@ public class PvpModArmorMaterial {
             ),
             5,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
-            0.0F,
+            2.0F,
             0.0F,
             BEDROCK_INGOT,
             BEDROCK_ARMOR_MATERIAL_KEY
