@@ -31,6 +31,7 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_INGOT, "岩盤のインゴット");
         translationBuilder.add(Items.BRUSH, "トイレブラシ");
         translationBuilder.add(Items.GRAVITY_ADJUSTMENT_DEVICE, "重力調整デバイス");
+        translationBuilder.add(Items.MILK_TRADER, "携帯型牛乳瓶交易村人");
 
         translationBuilder.add(Items.BEDROCK_AXE, "岩盤の斧");
         translationBuilder.add(Items.BEDROCK_BATTLEAXE, "岩盤のバトルアックス");
@@ -65,6 +66,32 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add("item.pvp_mod.nazo_block", "？ブロック");
         translationBuilder.add("item.pvp_mod.border_block", "ボーダーブロック");
 
+        translationBuilder.add("tooltip.pvp_mod.descending_god_hinokagutsuchi", "火炎耐性");
+        translationBuilder.add("tooltip.pvp_mod.new_beach_sports_1", "移動速度低下I");
+        translationBuilder.add("tooltip.pvp_mod.new_beach_sports_2", "攻撃力上昇I");
+        translationBuilder.add("tooltip.pvp_mod.otherworld_contact_point_1", "跳躍力上昇II");
+        translationBuilder.add("tooltip.pvp_mod.otherworld_contact_point_2", "移動速度上昇I");
+        translationBuilder.add("tooltip.pvp_mod.otherworld_contact_point_3", "毒I");
+        translationBuilder.add("tooltip.pvp_mod.reimu_purification_rod_super", "自身へ浮遊、低速落下を付与");
+        translationBuilder.add("tooltip.pvp_mod.shamanic_voice", "採掘速度上昇I");
+
+        translationBuilder.add("tooltip.pvp_mod.bedrock_battleaxe", "一定範囲内にダメージを与え、範囲内にいるMOBへ鈍足、弱体化を付与");
+        translationBuilder.add("tooltip.pvp_mod.bedrock_scythe", "一定範囲内にいる自身を除くMOBへダメージと鈍足、衰弱、暗闇、毒を付与し、自身へはダメージを与え、鈍足、弱体化を付与");
+        translationBuilder.add("tooltip.pvp_mod.brush_1", "全プレイヤーの火炎耐性を削除");
+        translationBuilder.add("tooltip.pvp_mod.brush_2", "3回のみ使用可能");
+        translationBuilder.add("tooltip.pvp_mod.fleet_footed", "移動速度上昇II");
+        translationBuilder.add("tooltip.pvp_mod.gravity_adjustment_device", "自身の低速落下を削除");
+        translationBuilder.add("tooltip.pvp_mod.infested_boots", "虫食い");
+        translationBuilder.add("tooltip.pvp_mod.zazazazal_sword", "自身へ攻撃力上昇、耐性を付与");
+
+        translationBuilder.add("tooltip.pvp_mod.Health_Boost", "体力増強");
+        translationBuilder.add("tooltip.pvp_mod.Absorption", "衝撃吸収");
+        translationBuilder.add("tooltip.pvp_mod.Regeneration", "再生");
+        translationBuilder.add("tooltip.pvp_mod.Resistance", "耐性");
+        translationBuilder.add("tooltip.pvp_mod.Strength", "攻撃力上昇");
+        translationBuilder.add("tooltip.pvp_mod.Oozing", "滲出");
+        translationBuilder.add("tooltip.pvp_mod.Speed", "移動速度上昇");
+        translationBuilder.add("tooltip.pvp_mod.Fire_Resistance", "火炎耐性");
 
         translationBuilder.add(Blocks.NAZO_BLOCK, "？ブロック");
         translationBuilder.add(Blocks.BORDER_BLOCK, "ボーダーブロック");

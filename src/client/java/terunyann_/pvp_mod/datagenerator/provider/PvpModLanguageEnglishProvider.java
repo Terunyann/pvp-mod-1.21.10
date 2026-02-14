@@ -30,6 +30,7 @@ public class PvpModLanguageEnglishProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.BEDROCK_INGOT, "bedrock　ingot");
         translationBuilder.add(Items.BRUSH, "Toilet Brush");
         translationBuilder.add(Items.GRAVITY_ADJUSTMENT_DEVICE, "gravity adjustment device");
+        translationBuilder.add(Items.MILK_TRADER, "Portable Milk Bottle Trading Villager");
 
         translationBuilder.add(Items.BEDROCK_AXE, "bedrock　axe");
         translationBuilder.add(Items.BEDROCK_BATTLEAXE, "bedrock　battleaxe");
@@ -63,6 +64,33 @@ public class PvpModLanguageEnglishProvider extends FabricLanguageProvider {
 
         translationBuilder.add("item.pvp_mod.nazo_block", "Nazo Block");
         translationBuilder.add("item.pvp_mod.border_block", "Border Block");
+
+        translationBuilder.add("tooltip.pvp_mod.descending_god_hinokagutsuchi", "Fire_Resistance");
+        translationBuilder.add("tooltip.pvp_mod.new_beach_sports_1", "SlownessI");
+        translationBuilder.add("tooltip.pvp_mod.new_beach_sports_2", "StrengthI");
+        translationBuilder.add("tooltip.pvp_mod.otherworld_contact_point_1", "Jump BoostII");
+        translationBuilder.add("tooltip.pvp_mod.otherworld_contact_point_2", "SpeedI");
+        translationBuilder.add("tooltip.pvp_mod.otherworld_contact_point_3", "PoisonI");
+        translationBuilder.add("tooltip.pvp_mod.reimu_purification_rod_super", "自身へLevitation、Slow Fallingを付与");
+        translationBuilder.add("tooltip.pvp_mod.shamanic_voice", "HasteI");
+
+        translationBuilder.add("tooltip.pvp_mod.bedrock_battleaxe", "Deals damage within a certain range and inflicts Slowness and Weakness on mobs within the area.");
+        translationBuilder.add("tooltip.pvp_mod.bedrock_scythe", "Inflicts damage and applies Slowness, Wither, Darkness, and Poison to all mobs within range except yourself. Inflicts damage and applies Slowness and Weakness to yourself.");
+        translationBuilder.add("tooltip.pvp_mod.brush_1", "Remove fire Resistance from all players");
+        translationBuilder.add("tooltip.pvp_mod.brush_2", "Can be used only 3 times");
+        translationBuilder.add("tooltip.pvp_mod.fleet_footed", "SpeedII");
+        translationBuilder.add("tooltip.pvp_mod.gravity_adjustment_device", "Remove your own slow fall");
+        translationBuilder.add("tooltip.pvp_mod.infested_boots", "Infested");
+        translationBuilder.add("tooltip.pvp_mod.zazazazal_sword", "Increases Strength and grants resistance to oneself");
+
+        translationBuilder.add("tooltip.pvp_mod.Health_Boost", "Health_Boost");
+        translationBuilder.add("tooltip.pvp_mod.Absorption", "Absorption");
+        translationBuilder.add("tooltip.pvp_mod.Regeneration", "Regeneration");
+        translationBuilder.add("tooltip.pvp_mod.Resistance", "Resistance");
+        translationBuilder.add("tooltip.pvp_mod.Strength", "Strength");
+        translationBuilder.add("tooltip.pvp_mod.Oozing", "Oozing");
+        translationBuilder.add("tooltip.pvp_mod.Speed", "Speed");
+        translationBuilder.add("tooltip.pvp_mod.Fire_Resistance", "Fire_Resistance");
 
         translationBuilder.add(Blocks.NAZO_BLOCK, "Nazo Block");
         translationBuilder.add(Blocks.BORDER_BLOCK, "Border Block");

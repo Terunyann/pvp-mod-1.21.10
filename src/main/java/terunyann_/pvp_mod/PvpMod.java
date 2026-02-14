@@ -53,6 +53,7 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.BRUSH);
             itemGroup.add(Items.MILK_BOTTLE);
             itemGroup.add(Items.GRAVITY_ADJUSTMENT_DEVICE);
+            itemGroup.add(Items.MILK_TRADER);
 
             itemGroup.add(Items.BEDROCK_AXE);
             itemGroup.add(Items.BEDROCK_BATTLEAXE);

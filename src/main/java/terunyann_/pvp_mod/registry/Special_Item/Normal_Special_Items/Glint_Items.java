@@ -1,5 +1,4 @@
-package terunyann_.pvp_mod.registry.specialitem;
-
+package terunyann_.pvp_mod.registry.Special_Item.Normal_Special_Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 

@@ -33,6 +33,7 @@ public class PvpModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Items.BEDROCK_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
         itemModelGenerator.register(Items.BEDROCK_INGOT, Models.GENERATED);
         itemModelGenerator.register(Items.GRAVITY_ADJUSTMENT_DEVICE, Models.GENERATED);
+        itemModelGenerator.register(Items.MILK_TRADER, Models.GENERATED);
 
         itemModelGenerator.register(Items.BEDROCK_AXE, Models.HANDHELD);
         itemModelGenerator.register(Items.BEDROCK_BATTLEAXE, Models.HANDHELD);

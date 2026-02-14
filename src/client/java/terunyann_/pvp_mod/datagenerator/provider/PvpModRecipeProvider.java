@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Item;
+import net.minecraft.recipe.RecipeSerializer;
+import net.minecraft.recipe.SmokingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -12,6 +14,8 @@ import terunyann_.pvp_mod.registry.Items;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+
+import static net.minecraft.item.Items.BREAD;
 
 public class PvpModRecipeProvider extends FabricRecipeProvider {
     public PvpModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
@@ -55,12 +59,12 @@ public class PvpModRecipeProvider extends FabricRecipeProvider {
                         .pattern(" p ")
                         .pattern("jbm")
                         .pattern(" p ")
-                        .input('p', net.minecraft.item.Items.BREAD)
+                        .input('p', BREAD)
                         .input('j', net.minecraft.item.Items.BAKED_POTATO)
                         .input('b', net.minecraft.item.Items.COOKED_BEEF)
                         .input('m', Items.MILK_BOTTLE)
                         .group("multi_bench")
-                        .criterion(hasItem(net.minecraft.item.Items.BREAD), conditionsFromItem(net.minecraft.item.Items.BREAD))
+                        .criterion(hasItem(BREAD), conditionsFromItem(BREAD))
                         .offerTo(exporter);
 
                 createShapeless(RecipeCategory.FOOD, Items.NETHERITE_APPLE, 1)
@@ -70,13 +74,19 @@ public class PvpModRecipeProvider extends FabricRecipeProvider {
                         .offerTo(exporter);
 
                 offerSmelting(
-                        List.of(net.minecraft.item.Items.BREAD),
+                        List.of(BREAD),
                         RecipeCategory.FOOD,
                         Items.SLICED_BREAD,
                         0.1f,
                         300,
                         "food"
                 );
+
+                offerFoodCookingRecipe(
+                        "smoking",
+                        RecipeSerializer.SMOKING,
+                        SmokingRecipe::new,
+                        150, BREAD, Items.SLICED_BREAD, 0.2f);
 
                 offerSmelting(
                         List.of(Items.BAKED_CARROT),
@@ -96,7 +106,7 @@ public class PvpModRecipeProvider extends FabricRecipeProvider {
                         "food"
                 );
 
-                createShaped(RecipeCategory.FOOD, Items.SOFTSERVE_ICECREAM, 1)
+                createShaped(RecipeCategory.FOOD, Items.SOFTSERVE_ICECREAM, 3)
                         .pattern("msm")
                         .pattern(" b ")
                         .pattern(" w ")
