@@ -44,7 +44,7 @@ public class Bedrock_Scythe extends Item {
         for (LivingEntity living : targets) {
             living.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 2));
             living.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 100, 2));
-            living.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 100, 0));
+            living.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 100, 9));
             living.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 60, 1));
 
             living.damage(serverWorld, serverWorld.getDamageSources().playerAttack(user), 14.0f);
@@ -67,11 +67,12 @@ public class Bedrock_Scythe extends Item {
                     SoundEvents.BLOCK_ANVIL_LAND, SoundCategory.PLAYERS, 1.0f, 0.4f);
         }
 
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x + 1, center.y + 1, center.z + 2, 1, 0, 0, 0, 0);
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x - 1, center.y + 1, center.z + 2, 1, 0, 0, 0, 0);
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x + 2, center.y + 2, center.z + 2, 1, 0, 0, 0, 0);
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x - 2, center.y + 2, center.z + 2, 1, 0, 0, 0, 0);
-        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x, center.y + 3, center.z + 5, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x + 1, center.y - 1, center.z + 2, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x - 1, center.y - 1, center.z + 2, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x + 2, center.y - 2, center.z + 2, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x - 2, center.y - 2, center.z + 2, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x, center.y - 3, center.z + 5, 1, 0, 0, 0, 0);
+        serverWorld.spawnParticles(ParticleTypes.EXPLOSION, center.x, center.y - 3, center.z + 5, 1, 0, 0, 0, 0);
 
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20, 4));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 20, 255));
