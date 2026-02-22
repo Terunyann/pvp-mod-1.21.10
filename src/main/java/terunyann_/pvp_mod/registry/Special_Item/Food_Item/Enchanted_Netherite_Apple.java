@@ -24,7 +24,7 @@ public class Enchanted_Netherite_Apple extends Item {
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Absorption").append("II, 200s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Regeneration").append("VI, 10s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Resistance").append("I, 140s"));
-        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append("250s"));
+        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append(", 250s"));
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
     }
 }

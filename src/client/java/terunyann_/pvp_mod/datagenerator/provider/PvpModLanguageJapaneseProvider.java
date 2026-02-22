@@ -75,8 +75,8 @@ public class PvpModLanguageJapaneseProvider extends FabricLanguageProvider {
         translationBuilder.add("tooltip.pvp_mod.reimu_purification_rod_super", "自身へ浮遊、低速落下を付与");
         translationBuilder.add("tooltip.pvp_mod.shamanic_voice", "採掘速度上昇I");
 
-        translationBuilder.add("tooltip.pvp_mod.bedrock_battleaxe", "一定範囲内にダメージを与え、範囲内にいるMOBへ鈍足、弱体化を付与");
-        translationBuilder.add("tooltip.pvp_mod.bedrock_scythe", "一定範囲内にいる自身を除くMOBへダメージと鈍足、衰弱、暗闇、毒を付与し、自身へはダメージを与え、鈍足、弱体化を付与");
+        translationBuilder.add("tooltip.pvp_mod.bedrock_battleaxe", "CT12sの特殊攻撃が可能");
+        translationBuilder.add("tooltip.pvp_mod.bedrock_scythe", "CT15sの特殊攻撃が可能");
         translationBuilder.add("tooltip.pvp_mod.brush_1", "全プレイヤーの火炎耐性を削除");
         translationBuilder.add("tooltip.pvp_mod.brush_2", "3回のみ使用可能");
         translationBuilder.add("tooltip.pvp_mod.fleet_footed", "移動速度上昇II");

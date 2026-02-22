@@ -24,7 +24,7 @@ public class Kiwi extends Item {
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Regeneration").append("IV, 10s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Resistance").append("V, 10s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Speed").append("I, 15s"));
-        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append("600s"));
+        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append(", 600s"));
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
     }
 }

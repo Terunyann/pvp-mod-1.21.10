@@ -23,7 +23,7 @@ public class Amethyst_Apple extends Item {
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Absorption").append("IV, 180s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Regeneration").append("II, 15s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Resistance").append("II, 120s"));
-        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append("180s"));
+        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append(", 180s"));
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
     }
 }

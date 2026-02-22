@@ -18,7 +18,7 @@ public class Hamburger extends Item {
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Health_Boost").append("I, 180s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Absorption").append("II, 180s"));
         textConsumer.accept(Text.translatable("tooltip.pvp_mod.Regeneration").append("III, 10s"));
-        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append("180s"));
+        textConsumer.accept(Text.translatable("tooltip.pvp_mod.Fire_Resistance").append(", 180s"));
         super.appendTooltip(stack, context, displayComponent, textConsumer, type);
     }
 }
