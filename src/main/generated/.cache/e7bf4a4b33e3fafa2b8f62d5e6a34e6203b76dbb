@@ -5,10 +5,12 @@ c9b7d5792dc7684ec569f1fc2e14884da23a9377 data/minecraft/tags/item/enchantable/ar
 bb0b889679c2da4aaf0a71e6f21b53716ebc3eb0 data/minecraft/tags/item/enchantable/durability.json
 f07c0c1a11a5cc3f3b14fffecf0a1fdca33cb5a5 data/minecraft/tags/item/enchantable/head_armor.json
 3f41e291da06a349bd6d1f0bdc5651489078866a data/minecraft/tags/item/enchantable/leg_armor.json
-fecc492f3c5c0ba8120fdc028f9ed9f066b5a564 data/minecraft/tags/item/enchantable/mining.json
-ab7d8efaafaaf78a04601cbb1c551f6b7393a450 data/minecraft/tags/item/enchantable/sword.json
+3acbf1447b6811c358f2123aa060420fa7fbb055 data/minecraft/tags/item/enchantable/mining.json
+3acbf1447b6811c358f2123aa060420fa7fbb055 data/minecraft/tags/item/enchantable/mining_loot.json
+fcdac2e5f9a748b5316915ac29b19473a250bffa data/minecraft/tags/item/enchantable/sword.json
 625d96a9e24734beb916e66a2e86e65d87683c46 data/minecraft/tags/item/enchantable/weapon.json
 de735b7de0e8cc4f081113202b65bf5f1441b4ef data/minecraft/tags/item/foot_armor.json
+60c0fd1526144630bd49b8c627852a6668757d4e data/minecraft/tags/item/hoes.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/pickaxes.json
 356e5712d77ba570290a508f85ec3b8a0f251914 data/minecraft/tags/item/shovels.json
 ed1277fcea93dd87746ebb386f65765f4eec4a41 data/pvp_mod/tags/item/baked_food.json

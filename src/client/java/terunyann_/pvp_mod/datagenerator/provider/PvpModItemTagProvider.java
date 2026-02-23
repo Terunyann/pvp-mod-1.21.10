@@ -63,7 +63,8 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         valueLookupBuilder(ItemTags.SWORD_ENCHANTABLE)
                 .add(Items.BEDROCK_SWORD,
-                        Items.ZAZAZAZAL_SWORD
+                        Items.ZAZAZAZAL_SWORD,
+                        Items.BEDROCK_SCYTHE
                 )
         ;
 
@@ -85,6 +86,22 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         Items.NETHERITE_PAXEL,
                         Items.BEDROCK_PAXEL,
                         Items.BEDROCK_AXE,
+                        Items.BEDROCK_HOE,
+                        Items.BEDROCK_PICKAXE,
+                        Items.BEDROCK_SHOVEL,
+                        Items.BEDROCK_BATTLEAXE
+                );
+
+        valueLookupBuilder(ItemTags.MINING_LOOT_ENCHANTABLE)
+                .add(Items.WOODEN_PAXEL,
+                        Items.STONE_PAXEL,
+                        Items.IRON_PAXEL,
+                        Items.GOLDEN_PAXEL,
+                        Items.DIAMOND_PAXEL,
+                        Items.NETHERITE_PAXEL,
+                        Items.BEDROCK_PAXEL,
+                        Items.BEDROCK_AXE,
+                        Items.BEDROCK_HOE,
                         Items.BEDROCK_PICKAXE,
                         Items.BEDROCK_SHOVEL,
                         Items.BEDROCK_BATTLEAXE
@@ -120,6 +137,10 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         Items.BEDROCK_PAXEL,
                         Items.BEDROCK_BATTLEAXE,
                         Items.REIMU_PURIFICATION_ROD_SUPER
+                );
+
+        valueLookupBuilder(ItemTags.HOES)
+                .add(Items.BEDROCK_HOE
                 );
 
         valueLookupBuilder(ItemTags.DURABILITY_ENCHANTABLE)

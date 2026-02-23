@@ -1,24 +1,19 @@
 package terunyann_.pvp_mod.registry.Special_Item.Normal_Special_Items;
 
-import net.minecraft.component.type.TooltipDisplayComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 
 import java.util.Objects;
-import java.util.function.Consumer;
 
 public class Brush extends Item {
     public Brush(Item.Settings settings) {
@@ -59,11 +54,4 @@ public class Brush extends Item {
         return ActionResult.SUCCESS;
     }
 
-    @Override
-    public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
-        textConsumer.accept(Text.translatable("tooltip.pvp_mod.brush_1"));
-        textConsumer.accept(Text.translatable("tooltip.pvp_mod.brush_2"));
-
-        super.appendTooltip(stack, context, displayComponent, textConsumer, type);
-    }
 }

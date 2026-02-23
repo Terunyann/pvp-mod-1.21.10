@@ -141,7 +141,7 @@ public abstract class Items {
                     .useCooldown(12).rarity(Rarity.EPIC)
     );
 
-    public static final Item BEDROCK_HOE = register("bedrock_hoe", Item::new,
+    public static final Item BEDROCK_HOE = register("bedrock_hoe", Bedrock_Hoe::new,
             new Item.Settings()
                     .hoe(PvpModToolMaterial.BEDROCK, 8, -2.4f)
                     .rarity(Rarity.EPIC)
@@ -156,7 +156,8 @@ public abstract class Items {
     public static final Item BEDROCK_SCYTHE = register("bedrock_scythe", Bedrock_Scythe::new,
             new Item.Settings()
                     .sword(PvpModToolMaterial.BEDROCK, 8, -2.8f)
-                    .useCooldown(15).rarity(Rarity.EPIC)
+                    .useCooldown(15)
+                    .rarity(Rarity.EPIC)
     );
 
     public static final Item BEDROCK_SHOVEL = register("bedrock_shovel", Item::new,
