@@ -36,7 +36,7 @@ public class Zazazazal_Sword extends Item {
 
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20, 0, true, true));
 
-        user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 1, true, true));
+        user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 0, true, true));
 
         return ActionResult.SUCCESS;
     }

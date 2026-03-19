@@ -1,2 +1,4 @@
 // 1.21.10	-999999999-01-01T00:00:00	Pvp Mod/Tags for minecraft:block
+da86a8622fd78eb2262e619a609878c6355e37e4 data/pvp_mod/tags/block/incorrect_for_bedrock_tool.json
+05d716aa0cd4d9a8d5d91a0e109f07132aeed453 data/pvp_mod/tags/block/incorrect_for_wooden_paxel_tool.json
 40cd8e04401d48a8c6d972d447480f8db831fafe data/pvp_mod/tags/block/paxel_mineable.json

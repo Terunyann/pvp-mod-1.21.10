@@ -112,6 +112,7 @@ public abstract class Items {
     public static final Item BRUSH = register("brush", Brush::new,
             new Item.Settings()
                     .useCooldown(600)
+                    .maxCount(1)
     );
 
     public static final Item MILK_BOTTLE = register("milk_bottle", Item::new,
@@ -121,9 +122,11 @@ public abstract class Items {
     public static final Item GRAVITY_ADJUSTMENT_DEVICE = register("gravity_adjustment_device", Gravity_Adjustment_Device::new,
             new Item.Settings()
                     .useCooldown(5)
+                    .maxCount(1)
     );
     public static final Item MILK_TRADER = register("milk_trader", Milk_Trader::new,
             new Item.Settings()
+                    .maxCount(1)
     );
 
 
@@ -183,7 +186,7 @@ public abstract class Items {
 
     public static final Item WOODEN_PAXEL = register("wooden_paxel", Item::new,
             new Item.Settings()
-                    .tool(ToolMaterial.WOOD, PAXEL_MINEABLE, 5, -2.4f, 10)
+                    .tool(PvpModToolMaterial.WOODEN_PAXEL, PAXEL_MINEABLE, 5, -2.4f, 10)
                     .maxDamage(118).rarity(Rarity.COMMON)
     );
 
@@ -259,6 +262,12 @@ public abstract class Items {
     public static final Item FLEET_FOOTED = register("fleet_footed", Fleet_Footed::new,
             new Item.Settings()
                     .armor(GOLD, EquipmentType.LEGGINGS)
+                    .rarity(Rarity.EPIC)
+    );
+
+    public static final Item SAKURA = register("sakura", Sakura::new,
+            new Item.Settings()
+                    .armor(LEATHER, EquipmentType.BOOTS)
                     .rarity(Rarity.EPIC)
     );
 

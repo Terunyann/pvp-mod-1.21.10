@@ -33,7 +33,7 @@ public class PvpMod implements ModInitializer {
         Events.load();
 
 
-// Register items to the custom item group.
+// クリエタブ追加
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(Items.AMETHYST_APPLE);
             itemGroup.add(Items.DIAMOND_APPLE);
@@ -46,7 +46,6 @@ public class PvpMod implements ModInitializer {
             itemGroup.add(Items.HAMBURGER);
             itemGroup.add(Items.SLICED_BREAD);
             itemGroup.add(Items.SOFTSERVE_ICECREAM);
-            itemGroup.add(Items.MILK_BOTTLE);
 
             itemGroup.add(Items.BEDROCK_INGOT);
             itemGroup.add(Items.BEDROCK_UPGRADE_SMITHING_TEMPLATE);

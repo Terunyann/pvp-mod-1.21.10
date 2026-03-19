@@ -1,0 +1,9 @@
+{
+  "values": [
+    {
+      "id": "#minecraft:incorrect_for_wooden_tool",
+      "required": false
+    },
+    "minecraft:gold_block"
+  ]
+}

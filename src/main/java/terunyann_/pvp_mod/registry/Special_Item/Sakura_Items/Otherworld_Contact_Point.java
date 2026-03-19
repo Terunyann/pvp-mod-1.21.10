@@ -25,7 +25,6 @@ public class Otherworld_Contact_Point extends Item {
 
         player.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 20, 1, false, false, true));
         player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 20, 1, false, false, true));
-        player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20, 0, false, false, true));
+        player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 100, 0, false, false, true));
     }
-
 }

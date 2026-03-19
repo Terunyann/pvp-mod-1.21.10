@@ -38,7 +38,7 @@ public class PvpModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         ;
 
         valueLookupBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE)
-                .add(Items.BEDROCK_HELMET)
+                .add(Items.BEDROCK_CHESTPLATE)
         ;
 
         valueLookupBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)

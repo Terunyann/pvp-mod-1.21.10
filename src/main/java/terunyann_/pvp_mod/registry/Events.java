@@ -21,7 +21,7 @@ public class Events {
             if (world.isClient()) return ActionResult.PASS;
 
             BlockState state = world.getBlockState(pos);
-            if (!state.isOf(Blocks.BEDROCK)) {
+            if (!state.isOf(Blocks.BEDROCK) && (!state.isOf(Blocks.REINFORCED_DEEPSLATE))) {
                 return ActionResult.PASS;
             }
 

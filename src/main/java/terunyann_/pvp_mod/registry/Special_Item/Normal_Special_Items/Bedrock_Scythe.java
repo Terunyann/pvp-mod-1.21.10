@@ -32,7 +32,7 @@ public class Bedrock_Scythe extends Item {
 
         List<LivingEntity> targets = serverWorld.getEntitiesByClass(
                 LivingEntity.class,
-                new Box(center.add(-5, -5, -5), center.add(5, 5, 5)),
+                new Box(center.add(-2.9, -2.9, -2.9), center.add(2.9, 2.9, 2.9)),
                 e -> e != user
         );
 
